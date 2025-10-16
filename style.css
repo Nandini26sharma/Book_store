@@ -1,0 +1,165 @@
+*/* Reset the margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header #logo {
+    width: 100px;
+    border-radius: 50%; 
+    height: auto;
+  }
+  
+  header h1 {
+    font-size: 2.4rem;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    position:relative;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1rem;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #de57af;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #33333357;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+ 
+  
+  h1 {
+    margin: 10px 0;
+  }
+  
+  .filters {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .filters select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* class by js */
+  .book-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .book-card h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .book-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .book-card .price {
+    font-size: 1.1rem;
+    color: #f39c12;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  body.dark-mode .book-card {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .add-to-favorites {
+    background-color: #ff9900; /* Vibrant color */
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-favorites:hover {
+    background-color: #e68a00; /* Slightly darker color on hover */
+  }
+  
